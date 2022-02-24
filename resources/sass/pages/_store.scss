@@ -1,0 +1,85 @@
+.brand-store-wrapper {
+
+    .navbar {
+        margin: 40px 0;
+        .nav-item {
+            margin: 0 1rem;
+        }
+        .nav-link {
+            color: #2f76b7;
+            font-weight: normal;
+
+            &.active, &:hover {
+                font-weight: 600;
+            }
+        }
+
+        .social-media {
+
+            a {
+                border: 1px solid #2f76b7;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                color: #2f76b7;
+                display: block;
+                text-align: center;
+                border-radius: 4px;
+                transition: all 0.3s;
+
+                &:hover {
+                    background-color: #2f76b7;
+                    color: var(--color-white);
+                }
+            }
+        }
+    }
+
+}
+
+.everyday-bottle, .glass-bottle {
+    margin-top: 40px;
+
+    .product-slider {
+        margin-top: 30px;
+    }
+}
+
+.store-footer {
+    padding: 60px 0;
+
+    .footer-slider {
+        .owl-item {
+            
+        }
+        .slider-item {
+            padding: 2rem 1.5rem;
+            border-radius: 10px;
+            min-height: 445px;
+
+            img {
+                width: inherit !important;
+                margin: auto;
+            }
+
+            h3 {
+                color: var(--color-white);
+                font-weight: 500;
+                padding: 1.5rem 0;
+                line-height: 1.4;
+                min-height: 165px;
+                display: flex;
+                align-items: center;
+                text-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+            }
+
+            p {
+                color: var(--color-white);
+                font-weight: 400;
+                line-height: 1.5;
+                font-size: 1.2rem;
+                text-shadow: 0px 0px 3px rgba(0,0,0,0.2)
+            }
+        }
+    }
+}

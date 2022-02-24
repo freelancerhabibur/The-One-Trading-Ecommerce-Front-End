@@ -1,0 +1,130 @@
+footer {
+    .footer-top {
+        padding: 2rem 0;
+
+        .subscribe {
+            h3 {
+                font-weight: 700;
+            }
+            p {
+                font-weight: normal;
+                margin-bottom: 1rem;
+                font-style: italic;
+            }
+
+            form {
+                input {
+                    border: none;
+                }
+                button {
+                    border: 0;
+                    padding: 0 1.5rem;
+                    background-color: var(--color-theme);
+                    color: var(--color-white);
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .hotline-chat {
+            li {
+               font-size: 1.5rem; 
+               font-weight: 500;
+
+                & + li {
+                    margin-top: .8rem;
+                }
+
+               b{
+                   font-weight: 900;
+               }
+            }
+        }
+    }
+
+    .footer-middle {
+        padding: 3rem 0;
+
+        .footer-widget {
+            margin-bottom: 2.3rem;
+        }
+
+        ul {
+            li {
+                margin: .5rem 0;
+                color: var(--color-white);
+                a {
+                    color: var(--color-white);
+                }
+            }
+        }
+        .social-media {
+            a {
+                i {
+                    display: inline-block;
+                    width: 30px;  
+                    height: 30px;
+                    line-height: 30px;
+                    border: 1px solid #fff;
+                    border-radius: 4px;
+                    text-align: center;
+                    transition: all 0.2s;
+
+                    &:hover {
+
+                        &[class*=facebook] {
+                            background-color: #3b5998;
+                            border-color: #3b5998;
+                        }
+                        &[class*=twitter] {
+                            background-color: #1da1f2;
+                            border-color: #1da1f2;
+                        }
+                        &[class*=linkedin] {
+                            background-color: #3b5998;
+                            border-color: #3b5998;
+                        }
+                        &[class*=youtube] {
+                            background-color: #CD201F;
+                            border-color: #CD201F;
+                        }
+                        &[class*=instagram] {
+                            background-color: #E1306C;
+                            border-color: #E1306C;
+                        }
+                        &[class*=skype] {
+                            background-color: #00AFF0;
+                            border-color: #00AFF0;
+                        }
+                    }
+
+                }
+            }
+        }
+        h6 {
+            color: var(--color-white);
+            margin-bottom: .7rem;
+        }
+        
+        @media (min-width: 992px) {
+            .col-lg {
+                flex: 1 0 0 !important;
+            }
+        }
+    }
+
+    .footer-bottom {
+        padding: 1rem;
+
+        p {
+            font-weight: normal;
+            color: #6b6b6b;
+
+            a {
+                text-decoration: underline;
+                text-underline-offset: 2px;
+                color: #99cc33;
+            }
+        }
+    }
+}
